@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060502927917",
+    "project_id": "car-e-wallet",
+    "storage_bucket": "car-e-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060502927917:android:6fc738da7dcf395c5196a4",
+        "android_client_info": {
+          "package_name": "com.car_ewallet.real_time_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060502927917-vmsoo3j72mnsc528lk99ba3qo9kkjo6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQcXAwG2t5DLZba51P4DrI2Dy1GTIX_zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060502927917-vmsoo3j72mnsc528lk99ba3qo9kkjo6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
