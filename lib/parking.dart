@@ -19,7 +19,7 @@ class _ParkingWidgetState extends State<ParkingWidget> {
           Flexible(
             flex: 12,
             child: Container(
-              child: Container(),
+              child: MapWidget(),
             ),
           ),
           Flexible(
