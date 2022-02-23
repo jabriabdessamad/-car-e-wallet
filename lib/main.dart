@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:real_time_app/HomeWithSidebar.dart';
-import 'package:real_time_app/auth.dart';
-import 'package:real_time_app/newuser.dart';
+import 'package:real_time_app/screens/home/HomeWithSidebar.dart';
+import 'package:real_time_app/services/auth.dart';
+import 'package:real_time_app/models/newuser.dart';
 import 'package:real_time_app/wrapper.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/provider.dart';

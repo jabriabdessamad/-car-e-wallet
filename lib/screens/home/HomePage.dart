@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:real_time_app/parking.dart';
+import 'package:real_time_app/screens/parking/parking.dart';
 
 class HomePage extends StatelessWidget {
   @override

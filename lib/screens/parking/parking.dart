@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:real_time_app/HomeWithSidebar.dart';
-import 'package:real_time_app/mapwidget.dart';
-import 'package:real_time_app/parkingservices.dart';
+import 'package:real_time_app/screens/home/HomeWithSidebar.dart';
+import 'package:real_time_app/map/mapwidget.dart';
+import 'package:real_time_app/screens/parking/parkingservices.dart';
 
 class ParkingWidget extends StatefulWidget {
   const ParkingWidget({Key? key}) : super(key: key);

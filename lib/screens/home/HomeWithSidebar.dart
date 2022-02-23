@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:real_time_app/authenticate.dart';
+import 'package:real_time_app/screens/authenticate/authenticate.dart';
 import 'HomePage.dart';
-import 'package:real_time_app/auth.dart';
+import 'package:real_time_app/services/auth.dart';
 
 class HomeWithSidebar extends StatelessWidget {
   @override

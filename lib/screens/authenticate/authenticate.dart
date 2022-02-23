@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:real_time_app/HomePage.dart';
-import 'package:real_time_app/HomeWithSidebar.dart';
-import 'package:real_time_app/register.dart';
-import 'package:real_time_app/register.dart';
-import 'package:real_time_app/sign_in.dart';
+import 'package:real_time_app/screens/home/HomePage.dart';
+import 'package:real_time_app/screens/home/HomeWithSidebar.dart';
+import 'package:real_time_app/screens/authenticate/register.dart';
+import 'package:real_time_app/screens/authenticate/register.dart';
+import 'package:real_time_app/screens/authenticate/sign_in.dart';
 
 class Authenticate extends StatefulWidget {
   @override

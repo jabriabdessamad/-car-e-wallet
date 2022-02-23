@@ -2,7 +2,7 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:real_time_app/payment.dart';
+import 'package:real_time_app/screens/parking/payment.dart';
 
 class ParkingItems extends StatefulWidget {
   String? parkingName;

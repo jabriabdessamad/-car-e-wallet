@@ -1,21 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:real_time_app/HomeWithSidebar.dart';
-import 'package:real_time_app/auth.dart';
+import 'package:real_time_app/screens/home/HomeWithSidebar.dart';
+import 'package:real_time_app/services/auth.dart';
 import 'package:real_time_app/shared/constants.dart';
 import 'package:real_time_app/shared/loading.dart';
 
-class SignIn extends StatefulWidget {
-  const SignIn({Key? key}) : super(key: key);
+class Register extends StatefulWidget {
+  const Register({Key? key}) : super(key: key);
 
   @override
-  _SignInState createState() => _SignInState();
+  _RegisterState createState() => _RegisterState();
 }
 
-class _SignInState extends State<SignIn> {
+class _RegisterState extends State<Register> {
   final AuthService _auth = AuthService();
   final _formkey = GlobalKey<FormState>();
   bool loading = false;
 
+  //text filed text
   String email = '';
   String password = '';
   String error = '';
@@ -26,7 +27,7 @@ class _SignInState extends State<SignIn> {
         ? Loading()
         : Scaffold(
             appBar: AppBar(
-              title: Text("Sign In"),
+              title: Text("Create Acount"),
             ),
             body: Container(
               color: Colors.grey[200],
@@ -88,17 +89,16 @@ class _SignInState extends State<SignIn> {
                                     loading = true;
                                   });
                                   dynamic result =
-                                      await _auth.signInWithEmailAndPassword(
+                                      await _auth.registerWithEmailAndPassword(
                                           email, password);
 
                                   if (result == null) {
                                     setState(() {
                                       loading = false;
-                                      error =
-                                          'could not sign in with those credencials';
+                                      error = 'please supply a valid email';
                                     });
                                   } else {
-                                    Navigator.push(
+                                    Navigator.pushReplacement(
                                         context,
                                         MaterialPageRoute(
                                             builder: (context) =>
@@ -107,7 +107,7 @@ class _SignInState extends State<SignIn> {
                                 }
                               },
                               child: Text(
-                                'sign in',
+                                'register',
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 18),
                               ),
