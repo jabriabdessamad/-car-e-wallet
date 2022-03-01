@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:real_time_app/screens/home/HomeWithSidebar.dart';
-import 'package:real_time_app/map/mapwidget.dart';
+import 'package:real_time_app/screens/map/mapwidget.dart';
 import 'package:real_time_app/screens/parking/parkingservices.dart';
 
 class ParkingWidget extends StatefulWidget {

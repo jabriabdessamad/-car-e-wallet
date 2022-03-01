@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:real_time_app/map/mapwidget.dart';
+import 'package:real_time_app/screens/map/mapwidget.dart';
 import 'package:real_time_app/screens/parking/parkingSpots.dart';
 
 class PaymentScreen extends StatefulWidget {
